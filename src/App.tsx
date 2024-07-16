@@ -1,12 +1,21 @@
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
-import theme from './styles/Theme';
+import Header from './components/Header';
+import theme from './styles/theme';
+
+const Container = styled.section`
+	width: 80%;
+	margin: 0 auto;
+	height: 100vh;
+`;
 
 const App = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyles />
-			<h1>hello</h1>
+			<Container>
+				<Header />
+			</Container>
 		</ThemeProvider>
 	);
 };
