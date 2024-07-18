@@ -2,6 +2,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
 import Header from './components/Header';
 import theme from './styles/theme';
+import Main from './components/Main';
 
 const Container = styled.section`
 	width: 80%;
@@ -19,6 +20,7 @@ const App = () => {
 			<GlobalStyles />
 			<Container>
 				<Header />
+				<Main />
 			</Container>
 		</ThemeProvider>
 	);

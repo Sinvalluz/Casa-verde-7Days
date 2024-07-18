@@ -44,22 +44,6 @@ html {
 	background-image: url(${backgroundShape});
 	background-repeat: no-repeat;
 	background-position: right top;
-
-	@media screen and (max-width: 1200px) {
-		background-size: 800px;
-	}
-	@media screen and (max-width: 992px) {
-		background-size: 700px;
-	}
-	@media screen and (max-width: 896px) {
-		background-size: 600px;
-	}
-	@media screen and (max-width: 768px) {
-		background-size: 600px;
-	}
-	@media screen and (max-width: 480px) {
-		background-size: 400px;
-	}
 }
     ol, ul {
 	list-style: none;
