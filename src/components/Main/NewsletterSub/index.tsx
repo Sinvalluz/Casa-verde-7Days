@@ -1,5 +1,5 @@
 import Form from './Form';
-import primaryPlant from '@/assets/primary-plant.svg';
+import primaryPlant from '../../../assets/primary-plant.svg';
 import * as S from './styles';
 
 const NewsletterSub = () => {

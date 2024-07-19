@@ -1,8 +1,8 @@
 import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
-import Header from './components/Header';
 import theme from './styles/theme';
 import Main from './components/Main';
+import Header from './components/Header';
 
 const Container = styled.section`
 	width: 80%;

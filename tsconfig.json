@@ -13,7 +13,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["./src/*", "./dist/*", ""]
+			"@components/*": ["src/components/*"]
 		}
 	}
 }
