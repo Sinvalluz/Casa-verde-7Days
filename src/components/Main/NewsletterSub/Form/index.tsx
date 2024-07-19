@@ -1,10 +1,9 @@
-import { Mail } from 'lucide-react';
 import * as S from './styles';
 
 const Form = () => {
 	return (
 		<S.Formulary noValidate>
-			<Mail style={{ margin: '0 1rem' }} />
+			<S.IconEmail />
 			<S.InputEmail
 				type='email'
 				id='email'
