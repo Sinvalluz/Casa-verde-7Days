@@ -1,4 +1,4 @@
-import tutorialPlant from '../../assets/Tutorial-img.svg';
+import tutorialPlant from '../../../assets/Tutorial-img.svg';
 import * as S from './styles';
 
 const Tutorial = () => {

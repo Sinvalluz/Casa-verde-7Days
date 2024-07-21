@@ -1,4 +1,4 @@
-import Tutorial from '../Tutorial';
+import Tutorial from './Tutorial';
 import NewsletterSub from './NewsletterSub';
 
 const Main = () => {

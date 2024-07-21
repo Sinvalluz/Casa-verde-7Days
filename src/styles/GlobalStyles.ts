@@ -19,7 +19,7 @@ time, mark, audio, video {
         margin: 0;
 	    padding: 0;
 	    border: 0;
-		outline: 1px dotted black; //Tira no final do projeto
+		// outline: 1px dotted black; //Tira no final do projeto
 	    font-size: 100%;
 		color: inherit;
 		font: inherit;
